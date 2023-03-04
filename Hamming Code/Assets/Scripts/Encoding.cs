@@ -20,8 +20,12 @@ public class Encoding : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
         ParityBits();
+        BitDistributer();
+    }
+
+    void BitDistributer()
+    {
         if(check == "r0")
         {
             text.text = r0.ToString();
@@ -59,7 +63,6 @@ public class Encoding : MonoBehaviour
             }
         }
     }
-
     void ParityBits()
     {
         r2 = (bs[2].bit + bs[3].bit + bs[0].bit)%2;
