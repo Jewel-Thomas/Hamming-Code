@@ -8,20 +8,23 @@ public class buttonstuff : MonoBehaviour
     //public Button b1;
     //public text t1;
     public GameObject b1obj;
+    public int bit = 0;
 
     public void ChangeValue()
     {
-        if(b1obj.GetComponentInChildren<Text>().text == "0")
+        if(bit == 0)
         {
             b1obj.GetComponentInChildren<Text>().text = "1";
             b1obj.GetComponent<Image>().color = Color.red;
             b1obj.GetComponentInChildren<Text>().color= Color.white;
+            bit = 1;
         }
-        else if(b1obj.GetComponentInChildren<Text>().text == "1")
+        else if(bit == 1)
         {
             b1obj.GetComponentInChildren<Text>().text = "0";
             b1obj.GetComponent<Image>().color = Color.white;
             b1obj.GetComponentInChildren<Text>().color= Color.black;
+            bit = 0;
         }
     }
 }
