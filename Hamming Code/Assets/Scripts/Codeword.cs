@@ -17,12 +17,20 @@ public class Codeword : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        CopyCodeWords();
     }
 
     void CopyCodeWords()
     {
         int tempBit = buttonstuff.bit;
         text.text = buttonstuff.bit.ToString();
+        if(tempBit==0)
+        {
+            image.color = Color.white;
+        }
+        else
+        {
+            image.color = Color.red;
+        }
     }
 }

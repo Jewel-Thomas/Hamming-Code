@@ -860,6 +860,7 @@ GameObject:
   - component: {fileID: 462677060}
   - component: {fileID: 462677062}
   - component: {fileID: 462677061}
+  - component: {fileID: 462677063}
   m_Layer: 5
   m_Name: Codeword0
   m_TagString: Untagged
@@ -925,6 +926,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 462677059}
   m_CullTransparentMesh: 0
+--- !u!114 &462677063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462677059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca4711347842d3748b20677c8f7996d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonstuff: {fileID: 336692768}
+  text: {fileID: 896202304}
+  image: {fileID: 462677061}
 --- !u!1 &532972164
 GameObject:
   m_ObjectHideFlags: 0
@@ -936,6 +952,7 @@ GameObject:
   - component: {fileID: 532972165}
   - component: {fileID: 532972167}
   - component: {fileID: 532972166}
+  - component: {fileID: 532972168}
   m_Layer: 5
   m_Name: Codeword3
   m_TagString: Untagged
@@ -1001,6 +1018,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 532972164}
   m_CullTransparentMesh: 0
+--- !u!114 &532972168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532972164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca4711347842d3748b20677c8f7996d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonstuff: {fileID: 1868147569}
+  text: {fileID: 872241844}
+  image: {fileID: 532972166}
 --- !u!1 &564828090
 GameObject:
   m_ObjectHideFlags: 0
@@ -1012,6 +1044,7 @@ GameObject:
   - component: {fileID: 564828091}
   - component: {fileID: 564828093}
   - component: {fileID: 564828092}
+  - component: {fileID: 564828094}
   m_Layer: 5
   m_Name: Codeword5
   m_TagString: Untagged
@@ -1077,6 +1110,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 564828090}
   m_CullTransparentMesh: 0
+--- !u!114 &564828094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564828090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da842fc93ee93b44088f20015bda1fd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bs:
+  - {fileID: 336692768}
+  - {fileID: 161761307}
+  - {fileID: 2027878735}
+  - {fileID: 1868147569}
+  text: {fileID: 1328928559}
+  image: {fileID: 564828092}
+  check: r1
 --- !u!1 &657523845
 GameObject:
   m_ObjectHideFlags: 0
@@ -1469,6 +1522,7 @@ GameObject:
   - component: {fileID: 762736075}
   - component: {fileID: 762736077}
   - component: {fileID: 762736076}
+  - component: {fileID: 762736078}
   m_Layer: 5
   m_Name: Codeword1
   m_TagString: Untagged
@@ -1534,6 +1588,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 762736074}
   m_CullTransparentMesh: 0
+--- !u!114 &762736078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762736074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca4711347842d3748b20677c8f7996d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonstuff: {fileID: 161761307}
+  text: {fileID: 412178194}
+  image: {fileID: 762736076}
 --- !u!1 &766994461
 GameObject:
   m_ObjectHideFlags: 0
@@ -1624,6 +1693,7 @@ GameObject:
   - component: {fileID: 857181380}
   - component: {fileID: 857181382}
   - component: {fileID: 857181381}
+  - component: {fileID: 857181383}
   m_Layer: 5
   m_Name: Codeword6
   m_TagString: Untagged
@@ -1689,6 +1759,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 857181379}
   m_CullTransparentMesh: 0
+--- !u!114 &857181383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857181379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da842fc93ee93b44088f20015bda1fd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bs:
+  - {fileID: 336692768}
+  - {fileID: 161761307}
+  - {fileID: 2027878735}
+  - {fileID: 1868147569}
+  text: {fileID: 716740070}
+  image: {fileID: 857181381}
+  check: r0
 --- !u!1 &872241842
 GameObject:
   m_ObjectHideFlags: 0
@@ -1779,6 +1869,7 @@ GameObject:
   - component: {fileID: 878696796}
   - component: {fileID: 878696798}
   - component: {fileID: 878696797}
+  - component: {fileID: 878696799}
   m_Layer: 5
   m_Name: Codeword2
   m_TagString: Untagged
@@ -1844,6 +1935,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 878696795}
   m_CullTransparentMesh: 0
+--- !u!114 &878696799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878696795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca4711347842d3748b20677c8f7996d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonstuff: {fileID: 2027878735}
+  text: {fileID: 280680388}
+  image: {fileID: 878696797}
 --- !u!1 &896202302
 GameObject:
   m_ObjectHideFlags: 0
@@ -2369,6 +2475,7 @@ GameObject:
   - component: {fileID: 1414335909}
   - component: {fileID: 1414335911}
   - component: {fileID: 1414335910}
+  - component: {fileID: 1414335912}
   m_Layer: 5
   m_Name: Codeword4
   m_TagString: Untagged
@@ -2434,6 +2541,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1414335908}
   m_CullTransparentMesh: 0
+--- !u!114 &1414335912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414335908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da842fc93ee93b44088f20015bda1fd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bs:
+  - {fileID: 336692768}
+  - {fileID: 161761307}
+  - {fileID: 2027878735}
+  - {fileID: 1868147569}
+  text: {fileID: 1630206961}
+  image: {fileID: 1414335910}
+  check: r2
 --- !u!1 &1630206959
 GameObject:
   m_ObjectHideFlags: 0
