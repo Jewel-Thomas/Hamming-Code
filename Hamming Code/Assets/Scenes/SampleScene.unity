@@ -270,6 +270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   b1obj: {fileID: 161761302}
+  bit: 0
 --- !u!1 &280680386
 GameObject:
   m_ObjectHideFlags: 0
@@ -496,6 +497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   b1obj: {fileID: 336692763}
+  bit: 0
 --- !u!1 &339442531
 GameObject:
   m_ObjectHideFlags: 0
@@ -508,7 +510,7 @@ GameObject:
   - component: {fileID: 339442534}
   - component: {fileID: 339442533}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: Reciever
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1075,6 +1077,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 564828090}
   m_CullTransparentMesh: 0
+--- !u!1 &657523845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 657523846}
+  m_Layer: 0
+  m_Name: EncodeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &657523846
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 657523845}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 131.67613, y: 1685.0857, z: -321.12338}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &666195097
 GameObject:
   m_ObjectHideFlags: 0
@@ -1087,7 +1119,7 @@ GameObject:
   - component: {fileID: 666195100}
   - component: {fileID: 666195099}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Sender
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2749,6 +2781,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   b1obj: {fileID: 1868147564}
+  bit: 0
 --- !u!1 &1957503797
 GameObject:
   m_ObjectHideFlags: 0
@@ -2962,3 +2995,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   b1obj: {fileID: 2027878730}
+  bit: 0
