@@ -29,38 +29,18 @@ public class Encoding : MonoBehaviour
         if(check == "r0")
         {
             text.text = r0.ToString();
-            if(r0==0)
-            {
-                image.color = Color.white;
-            }
-            else
-            {
-                image.color = Color.red;
-            }
+            changevisual(r0);
         }
         if(check == "r1")
         {
             text.text = r1.ToString();
-            if(r1==0)
-            {
-                image.color = Color.white;
-            }
-            else
-            {
-                image.color = Color.red;
-            }
+            changevisual(r1);
         }
         if(check == "r2")
         {
             text.text = r2.ToString();
-            if(r2==0)
-            {
-                image.color = Color.white;
-            }
-            else
-            {
-                image.color = Color.red;
-            }
+            changevisual(r2);
+
         }
     }
     void ParityBits()
@@ -68,5 +48,19 @@ public class Encoding : MonoBehaviour
         r2 = (bs[2].bit + bs[3].bit + bs[0].bit)%2;
         r1 = (bs[0].bit + bs[1].bit + bs[2].bit)%2;
         r0 = (bs[1].bit + bs[2].bit + bs[3].bit)%2;
+    }
+
+    void changevisual(int r)
+    {
+            if(r==0)
+            {
+                image.color = Color.white;
+                text.color= Color.black;
+            }
+            else if(r==1)
+            {
+                image.color = Color.red;
+                text.color= Color.white;
+            }
     }
 }

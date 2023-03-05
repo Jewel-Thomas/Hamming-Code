@@ -27,10 +27,12 @@ public class Codeword : MonoBehaviour
         if(tempBit==0)
         {
             image.color = Color.white;
+            text.color= Color.black;
         }
         else
         {
             image.color = Color.red;
+            text.color= Color.white;
         }
     }
 }
