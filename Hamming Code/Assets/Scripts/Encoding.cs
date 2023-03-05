@@ -9,7 +9,7 @@ public class Encoding : MonoBehaviour
     public Text text;
     public Image image;
     public string check;
-    int r1,r2,r0;
+    public int r1,r2,r0;
 
     // Start is called before the first frame update
     void Start()

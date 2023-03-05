@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Randomizer : MonoBehaviour
 {
-    bool stats=false;
+    public static bool stats=true;
     public GameObject r1txt;
     public void activate()
     {
