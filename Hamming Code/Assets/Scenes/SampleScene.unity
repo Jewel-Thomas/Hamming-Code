@@ -2734,6 +2734,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5593ad204ae5b6940a48436472fffb0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  recieverLogic: {fileID: 1118231735}
   r1txt: {fileID: 679899368}
 --- !u!114 &679899371
 MonoBehaviour:
@@ -2782,18 +2783,6 @@ MonoBehaviour:
       - m_Target: {fileID: 679899370}
         m_TargetAssemblyTypeName: Randomizer, Assembly-CSharp
         m_MethodName: activate
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1118231735}
-        m_TargetAssemblyTypeName: RecieverLogic, Assembly-CSharp
-        m_MethodName: RandomBitSelect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

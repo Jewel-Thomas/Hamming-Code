@@ -36,16 +36,20 @@ public class RecieverLogic : MonoBehaviour
     public void RandomBitSelect()
     {
         Randomizer.stats = true;
-        int rand = Random.Range(0,6);
-        if(bs[rand].bit==0)
+        int rand = Random.Range(0,7);
+        Debug.Log(rand);
+        if(button[rand].GetComponentInChildren<Text>().text=="0")
         {
-            bs[rand].bit = 1;
+            button[rand].GetComponentInChildren<Text>().text="1";
+            button[rand].GetComponent<Image>().color = Color.red;
+            button[rand].GetComponentInChildren<Text>().color= Color.white;
         }
         else
         {
-            bs[rand].bit = 0;
+            button[rand].GetComponentInChildren<Text>().text="0";
+            button[rand].GetComponent<Image>().color = Color.white;
+            button[rand].GetComponentInChildren<Text>().color= Color.black;
         }
-        bs[rand].ChangeValue();
         DisableAll();
     }
     void DisableAll()
@@ -82,11 +86,13 @@ public class RecieverLogic : MonoBehaviour
             button[i].GetComponentInChildren<Text>().text = bitManager.bitArray[i].ToString();
             if(bitManager.bitArray[i]==1)
             {
+                // bs[i].bit = bitManager.bitArray[i];
                 button[i].GetComponent<Image>().color = Color.red;
                 button[i].GetComponentInChildren<Text>().color= Color.white;
             }
             else
             {
+                // bs[i].bit = bitManager.bitArray[i];
                 button[i].GetComponent<Image>().color = Color.white;
                 button[i].GetComponentInChildren<Text>().color= Color.black;
             }
