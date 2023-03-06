@@ -878,7 +878,7 @@ MonoBehaviour:
   b1obj: {fileID: 232408671}
   bit: 0
   recieverBit: 0
-  recieverLogic: {fileID: 0}
+  recieverLogic: {fileID: 1118231735}
 --- !u!1 &280680386
 GameObject:
   m_ObjectHideFlags: 0
@@ -1254,7 +1254,7 @@ MonoBehaviour:
   b1obj: {fileID: 334003687}
   bit: 0
   recieverBit: 0
-  recieverLogic: {fileID: 0}
+  recieverLogic: {fileID: 1118231735}
 --- !u!1 &336692763
 GameObject:
   m_ObjectHideFlags: 0
@@ -4036,7 +4036,7 @@ MonoBehaviour:
   b1obj: {fileID: 1028807610}
   bit: 0
   recieverBit: 0
-  recieverLogic: {fileID: 0}
+  recieverLogic: {fileID: 1118231735}
 --- !u!1 &1058005605
 GameObject:
   m_ObjectHideFlags: 0
@@ -4744,7 +4744,7 @@ MonoBehaviour:
   b1obj: {fileID: 1256630946}
   bit: 0
   recieverBit: 0
-  recieverLogic: {fileID: 0}
+  recieverLogic: {fileID: 1118231735}
 --- !u!1 &1281397163
 GameObject:
   m_ObjectHideFlags: 0
@@ -4966,7 +4966,7 @@ MonoBehaviour:
   b1obj: {fileID: 1281397163}
   bit: 0
   recieverBit: 0
-  recieverLogic: {fileID: 0}
+  recieverLogic: {fileID: 1118231735}
 --- !u!1 &1287579001
 GameObject:
   m_ObjectHideFlags: 0
@@ -5801,7 +5801,7 @@ MonoBehaviour:
   b1obj: {fileID: 1517907061}
   bit: 0
   recieverBit: 0
-  recieverLogic: {fileID: 0}
+  recieverLogic: {fileID: 1118231735}
 --- !u!1 &1522671935
 GameObject:
   m_ObjectHideFlags: 0
@@ -6023,7 +6023,7 @@ MonoBehaviour:
   b1obj: {fileID: 1522671935}
   bit: 0
   recieverBit: 0
-  recieverLogic: {fileID: 0}
+  recieverLogic: {fileID: 1118231735}
 --- !u!1 &1525006086
 GameObject:
   m_ObjectHideFlags: 0
