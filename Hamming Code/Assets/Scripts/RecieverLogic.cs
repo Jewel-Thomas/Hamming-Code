@@ -22,12 +22,32 @@ public class RecieverLogic : MonoBehaviour
         {
             Reset();
         }
-        if(Randomizer.stats)
+        if(!Randomizer.stats)
         {
             CopySenderCodeWord();
         }
     }
 
+    public void ErrorMade()
+    {
+        Randomizer.stats = true;
+    }
+
+    public void RandomBitSelect()
+    {
+        Randomizer.stats = true;
+        int rand = Random.Range(0,6);
+        if(bs[rand].bit==0)
+        {
+            bs[rand].bit = 1;
+        }
+        else
+        {
+            bs[rand].bit = 0;
+        }
+        bs[rand].ChangeValue();
+        DisableAll();
+    }
     void DisableAll()
     {
         for(int i=0;i<7;i++)
@@ -52,6 +72,7 @@ public class RecieverLogic : MonoBehaviour
         {
             button[i].interactable = true;
         }
+        Randomizer.stats = false;
     }
 
     public void CopySenderCodeWord()

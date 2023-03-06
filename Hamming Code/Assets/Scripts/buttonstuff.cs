@@ -15,13 +15,6 @@ public class buttonstuff : MonoBehaviour
     void Start()
     {
         recieverBit = bit;
-        try{
-            recieverLogic.CopySenderCodeWord();
-        }
-        catch
-        {
-
-        }
     }
 
     public void ChangeValue()
